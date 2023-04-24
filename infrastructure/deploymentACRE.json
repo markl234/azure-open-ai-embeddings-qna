@@ -168,7 +168,7 @@
     }
   },
   "variables": {
-    "WebAppImageName": "DOCKER|fruocco/oai-embeddings",
+    "WebAppImageName": "devmjlopenaiqna.azurecr.io/marklazureopenaiembeddingsqna:6",
     "BlobContainerName": "documents",
     "FileShareName": "redisdata",
     "QueueName": "doc-processing",

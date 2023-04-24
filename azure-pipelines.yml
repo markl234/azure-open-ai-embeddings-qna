@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: '312a99bc-8994-4c8a-b436-7d44f4064d6e'
   imageRepository: 'marklazureopenaiembeddingsqna'
   containerRegistry: 'devmjlopenaiqna.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/WebApp'
+  dockerfilePath: '$(Build.SourcesDirectory)/WebApp.Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name

@@ -168,7 +168,7 @@
     }
   },
   "variables": {
-    "WebAppImageName": "DOCKER|devmjlopenaiqna.azurecr.io/devmjlopenaiqna/marklazureopenaiembeddingsqna",
+    "WebAppImageName": "DOCKER|devmjlopenaiqna.azurecr.io/devmjlopenaiqna/marklazureopenaiembeddingsqna:10",
     "BlobContainerName": "documents",
     "FileShareName": "redisdata",
     "QueueName": "doc-processing",
